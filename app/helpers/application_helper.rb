@@ -16,4 +16,8 @@ module ApplicationHelper
       end
 	end
 
+  def copyright_generator
+    GadzhievViewTool::Renderer.copyright 'Gusein Gadzhiev', 'All rights reserved'
+  end
+
 end
